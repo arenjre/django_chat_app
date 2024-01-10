@@ -1,0 +1,67 @@
+# Virtual environment
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Secret key
+*.secret
+
+# Log files
+*.log
+
+# Media files
+media/
+
+# Static files
+static/
+
+# Local development settings
+local_settings.py
+
+# IDE files
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Compiled Python files
+*.pyc
+
+# Temporary files
+*.swp
+
+# Editor specific files
+.vscode/
+
+# Ignore Pipenv virtual environment
+/.venv/
+
+# Ignore pipenv lock file
+Pipfile.lock
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore the production settings file
+settings_production.py
+
+# Ignore environment variables file
+.env
+
+# Ignore pytest cache
+__pycache__/
+.pytest_cache/
+pytestdebug.log
+
+# Ignore coverage files
+.coverage
